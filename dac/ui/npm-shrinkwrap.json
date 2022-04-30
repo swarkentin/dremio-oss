@@ -42,7 +42,7 @@
         "jwt-decode": "^3.1.2",
         "linkifyjs": "^2.1.9",
         "lodash": "4.17.19",
-        "marked": "^0.7.0",
+        "marked": "^4.0.10",
         "material-ui-popup-state": "^1.9.3",
         "moize": "^6.1.0",
         "moment": "^2.24.0",
@@ -11338,13 +11338,14 @@
       }
     },
     "node_modules/marked": {
-      "version": "0.7.0",
-      "integrity": "sha512-c+yYdCZJQrsRjTPhUx7VKkApw9bwDkNbHUKo1ovgcfDjb2kc8rLuRbIFyXL5WOEUwzSSKo3IXpph2K6DqB/KZg==",
+      "version": "4.0.10",
+      "resolved": "https://registry.npmjs.org/marked/-/marked-4.0.10.tgz",
+      "integrity": "sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw==",
       "bin": {
-        "marked": "bin/marked"
+        "marked": "bin/marked.js"
       },
       "engines": {
-        "node": ">=0.10.0"
+        "node": ">= 12"
       }
     },
     "node_modules/material-icons": {
@@ -26725,8 +26726,9 @@
       }
     },
     "marked": {
-      "version": "0.7.0",
-      "integrity": "sha512-c+yYdCZJQrsRjTPhUx7VKkApw9bwDkNbHUKo1ovgcfDjb2kc8rLuRbIFyXL5WOEUwzSSKo3IXpph2K6DqB/KZg=="
+      "version": "4.0.10",
+      "resolved": "https://registry.npmjs.org/marked/-/marked-4.0.10.tgz",
+      "integrity": "sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw=="
     },
     "material-icons": {
       "version": "0.1.0",
