@@ -34,6 +34,9 @@ jobs:
       # Launch the server
       #
       ##################################################
+      - name: Build
+        run: mvn compile
+
       - name: Run API
         run: |
             mvn compile exec:exec -pl dac/daemon & \
