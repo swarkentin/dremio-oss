@@ -37,7 +37,7 @@ jobs:
       - name: Run API
         run: |
             mvn compile exec:exec -pl dac/daemon & \
-            timeout 600 bash -c 'until curl --fail localhost:9047/apiv2/server_status; do sleep 2; done'
+            timeout 600 bash -c 'until curl -s --fail localhost:9047/apiv2/server_status; do sleep 10; done'
 
       # Get a bearer token
       - name: Get admin Bearer Token on master realm
